@@ -1,0 +1,162 @@
+/*--start header --*/
+*
+{
+    margin: 0;
+    padding: 0;
+        
+}
+body
+{
+    
+    height: 2000px       
+}
+
+header
+{
+    background-image: url('../images/1.png');
+    height: 700px;
+    background: cover;
+    background-size:100%;
+}
+header .container
+{
+    width: auto;
+    margin: auto
+}
+
+ header .slider p
+{
+    font-size: 20px ;
+    font-weight:bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+header .slider p span
+{
+     font-weight: lighter;   
+    
+}
+header .container .menu
+{
+   float: right;
+   color: black; 
+   
+}
+header .container .menu li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px ;
+    
+    
+}
+.description
+{
+    
+    
+}
+/*-- end header --*/
+/*-- start view some details--*/
+.first .icon
+{
+    width: 50%;
+    float: left;
+    
+}
+.first .container
+{
+    float: right;
+    width: 50%;
+    margin-top: 200px ;
+}
+.first .container h1
+{
+    font-family:'Dancing Script', cursive;
+    font-size: 50px ;
+    color: forestgreen;
+}
+.first .container h2
+{
+    font-size: 45px ;
+    
+    
+}
+.first .container p
+{
+    margin-right: 20px ;
+    font-size: 20px ;
+    color: burlywood ;
+    
+}
+.first  button 
+{
+    background: none ;
+    border: 5px  solid;
+    border-color: coral ;
+    padding: 10px 20px ; 
+    margin-top: 30px ;
+}
+.two .icon
+{
+    width: 50%;
+    float: right;
+    margin-top: 200px ;
+}
+.two  .container
+{
+    float: left;
+    width: 50%;
+    margin-top: 100px ;
+}
+.two  .container h1
+{
+    font-family:'Dancing Script', cursive;
+    font-size: 50px ;
+    color: forestgreen;
+}
+.two  .container h2
+{
+    font-size: 45px ;
+    font-weight: bold;
+    
+    
+}
+.two  .container p
+{
+    margin-left: 20px ;
+    margin-right: 20px ;
+    font-size: 20px ;
+    color: burlywood ;
+    
+}
+/*-- end view some details--*/
+ /*-- start ending--*/
+.menuitem
+{
+    text-align: center;
+    padding-top: 40px ;
+}
+.menuitem h1
+{
+    font-family:'Dancing Script', cursive;
+    font-size: 50px ;
+    color: forestgreen;
+    margin-top:  40px ;
+}
+.menuitem h2
+{
+    font-size: 45px ;
+    font-weight: bold;
+    
+    
+}
+ .menuitem button 
+{
+    background: none ;
+    border: 5px  solid;
+    border-color: coral ;
+    padding: 10px 20px ; 
+    margin-top: 30px ;
+}
+
+ /*-- end ending--*/
