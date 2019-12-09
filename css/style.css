@@ -1,14 +1,14 @@
 /*--start header --*/
 *
 {
-    margin: 0;
+    margin-top: 0;
     padding: 0;
         
 }
 body
 {
     
-    height: 2000px       
+    height:auto;       
 }
 
 header
@@ -18,45 +18,70 @@ header
     background: cover;
     background-size:100%;
 }
-header .container
+.navber.container
 {
-    width: auto;
-    margin: auto
+    width: 1200px;
+    margin: auto;
 }
 
- header .slider p
+ .navber .slider p
 {
     font-size: 20px ;
     font-weight:bold;
     margin-left: 20px;
-    margin-top: 20px;
+    
 }
-header .slider p span
+ .navber .slider p span
 {
      font-weight: lighter;   
     
 }
-header .container .menu
+ .navber .container .menu
 {
    float: right;
    color: black; 
    
 }
-header .container .menu li
+.container .menu li
 {
     list-style: none;
-    display: inline-block;
-    margin-right: 20px ;
+    display:inline-block;
+    margin:20px;
+    padding: 0;
     
     
 }
-.description
+.navber .description
 {
-    
-    
+    margin-top:100px ;
+    margin-left: 100px ;
+    margin-bottom: 10px ;
+    font-size: 90px;
 }
+.navber .description h1
+{
+    font-family:'Dancing Script', cursive;
+    font-size: 100px ;
+    color: forestgreen;
+}
+.navber .description h2
+{
+    font-size: 60px ;
+}
+
+.navber .description p
+{
+    margin-right: 20px ;
+    font-size: 40px ;
+}
+
 /*-- end header --*/
 /*-- start view some details--*/
+main 
+{
+    padding: 50px ;
+    
+}
 .first .icon
 {
     width: 50%;
@@ -91,10 +116,19 @@ header .container .menu li
 .first  button 
 {
     background: none ;
-    border: 5px  solid;
-    border-color: coral ;
-    padding: 10px 20px ; 
-    margin-top: 30px ;
+    color: skyblue;
+    width: 240px ;
+    height:80px ;
+    border: 1px  solid blue  ;
+    font-size: 18px ;
+    transition-duration: 5s;
+    border-radius: 4px ;
+
+}
+.first  button:hover
+{
+    background: blue;
+    cursor: pointer;
 }
 .two .icon
 {
@@ -134,14 +168,18 @@ header .container .menu li
 .menuitem
 {
     text-align: center;
-    padding-top: 40px ;
+    padding-top: 50px ;
+    margin-top: 50px ;
+    
+    
+    
 }
 .menuitem h1
 {
     font-family:'Dancing Script', cursive;
     font-size: 50px ;
     color: forestgreen;
-    margin-top:  40px ;
+    
 }
 .menuitem h2
 {
@@ -152,11 +190,19 @@ header .container .menu li
 }
  .menuitem button 
 {
-    background: none ;
-    border: 5px  solid;
-    border-color: coral ;
-    padding: 10px 20px ; 
-    margin-top: 30px ;
-}
+   background: none ;
+    color: skyblue;
+    width: 240px ;
+    height:80px ;
+    border: 1px  solid blue  ;
+    font-size: 18px ;
+    transition-duration: 5s;
+    border-radius: 4px ;
 
+}
+ .menuitem  button:hover
+{
+    background: blue;
+    cursor: pointer;
+}
  /*-- end ending--*/
